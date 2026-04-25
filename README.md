@@ -14,11 +14,20 @@
 
 ## Швидкий старт (для перевірки)
 
-Скопіюйте і вставте один рядок у термінал — він створить тестові файли, запустить скрипт і покаже результат:
+**Варіант 1** — якщо папки і файли ще не створені:
 
 ```bash
 mkdir test_folder\subdir; echo text > test_folder\a.txt; echo x > test_folder\b.jpg; echo x > test_folder\subdir\c.csv; python modul1.py test_folder; tree dist /F
 ```
+
+**Варіант 2** — Оскільки в моєму коді  файли вже створені, достатньо двох команд:
+
+```bash
+python modul1.py test_folder
+tree dist /F
+```
+
+Ви побачите повністю правильний результат роботи скрипта.
 
 ---
 
